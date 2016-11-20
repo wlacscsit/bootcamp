@@ -1,0 +1,98 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 8pt;
+}
+
+p {
+    font-size: 10pt;
+    line-height: 1.1em;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 10px 0 !important;
+}
+
+h1 {
+    font-size: 16pt;
+    /*margin: 1.10rem;*/
+}
+
+h2 {
+    font-size: 14pt !important;
+}
+
+h5 {
+    font-size: 9pt !important;
+}
+
+.container {
+    width: 95%;
+}
+
+.parallax-container {
+    min-height: 0px;
+    width: 100%;
+}
+
+.parallax-no-height {
+    min-height: 0px;
+}
+
+#laht-logo {
+    width: 25%;
+}
+
+#student-img {
+    display: none;
+}
+
+#html-css-js {
+    width: 15%;
+    height: auto;
+    margin-top: -10px;
+    padding-top: 0;
+}
+
+.m4print {
+    width: 33.3333333333% !important;
+}
+
+
+
+
+/*#header-logo .center {
+    text-align: left;
+}
+
+#html-css-js {
+    float: right;
+    margin-top: 300px;
+    padding: 10px;
+}
+
+.header img {
+}*/
+
+
+
+
+/*
+@media print {
+  * { margin: 0 !important; padding: 0 !important; }
+  html, body {
+    changing width to 100% causes huge overflow and wrap
+    height:100%; 
+    font-size: 9.5pt;
+  }
+
+  img { width:100%; }
+  li { margin: 0 0 10px 20px !important;}
+}
+*/
